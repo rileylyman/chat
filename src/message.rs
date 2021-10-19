@@ -3,7 +3,7 @@ use serde::{Deserialize, Serialize};
 
 #[derive(Debug, PartialEq, Deserialize, Serialize)]
 pub struct Message {
-    pub author: String,
+    pub author: Option<String>,
     pub content: String,
 }
 

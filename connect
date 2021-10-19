@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+RUST_LOG=warn cargo run --bin client -- $@
